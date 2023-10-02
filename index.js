@@ -190,10 +190,10 @@ menuIcon.onclick = () => {
 };
 
 // *=============================== github calender ==================================
-    GitHubCalendar(".calendar", "RajTupe");
+    GitHubCalendar(".calendar", "TusharSapate");
 
     // or enable responsive functionality:
-    GitHubCalendar(".calendar", "RajTupe", { responsive: true });
+    GitHubCalendar(".calendar", "TusharSapate", { responsive: true });
 
 // *=============================== resume open in new tab ==================================
 
@@ -203,7 +203,7 @@ menuIcon.onclick = () => {
 
     function NewTab() {
       window.open(
-        "https://drive.google.com/file/d/19B1Fdij3lnjBzmHD0ntUzuc7P_UqU-_e/view?usp=drive_link",
+        "https://drive.google.com/file/d/10W1l7f3a1CctjfbRk2iV8jx1e_gaQZi4/view?usp=sharing",
         "_blank"
       );
     }
