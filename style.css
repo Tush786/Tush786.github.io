@@ -100,7 +100,7 @@
     }
   
     section {
-      min-height: 100vh;
+      min-height: 70vh;
       padding: 10rem 9% 2rem;
     }
     
@@ -685,7 +685,8 @@
       .home-img{
         width: 55%;
         margin-left: 20%;
-        margin-bottom: 70%;
+        margin-bottom: 100%;
+        position: sticky;
         /* border: solid red; */
          
       }  
@@ -774,7 +775,10 @@
     }
   
     @media (min-width: 575px) {
-      .home { position: relative; }
+      .home { 
+        position: relative;
+        padding-bottom: 0px;
+       }
   
       .hero-bg {
         display: block;
@@ -795,3 +799,33 @@
       .shape-2 { left: 60px; }
   
     }
+
+
+    @media (max-width: 400px){
+      #ToolMain{
+        margin-left: -50px;
+      }
+      #Tool {
+        width: 100%;
+        display: block;
+        flex-direction: column;
+      
+      }
+
+      section {
+        min-height: 70vh;
+        padding: 10rem 9% 2rem;
+    }
+      
+    }
+
+    
+    .calendar {
+      font-family: Helvetica, arial;
+      border: 1px solid #DDDDDD;
+      border-radius: 3px;
+      min-height: 243px;
+      text-align: center;
+      margin: 0 auto;
+      display: none;
+  }
